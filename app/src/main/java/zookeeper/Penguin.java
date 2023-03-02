@@ -16,4 +16,13 @@ public class Penguin extends Animal {
     public void fish() {
         System.out.println("the penguin fishes");
     }
+
+    public void honk() {
+        System.out.println("The penguin honks");
+    }
+
+    @Override
+    public void say() {
+        honk();
+    }
 }

@@ -1,6 +1,6 @@
 package zookeeper;
 
-public class Animal {
+public abstract class Animal {
     private String food;
     private boolean nocturnal;
     private double aveLifeSpan;
@@ -33,4 +33,5 @@ public class Animal {
         System.out.println("This animal's life span is " + aveLifeSpan + " years.");
     }
 
+    public abstract void say();
 }

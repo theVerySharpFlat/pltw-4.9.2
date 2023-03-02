@@ -13,4 +13,9 @@ public class Elephant extends Animal {
     public void trumpet() {
         System.out.println("The elephant trumpets!");
     }
+
+    @Override
+    public void say() {
+        trumpet();
+    }
 }

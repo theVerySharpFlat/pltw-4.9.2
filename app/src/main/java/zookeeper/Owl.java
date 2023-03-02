@@ -12,4 +12,13 @@ public class Owl extends Animal {
     public void hunt() {
         System.out.println("the owl hunts");
     }
+
+    public void hoot() {
+        System.out.println("The owl hoots");
+    }
+
+    @Override
+    public void say() {
+        hoot();
+    }
 }

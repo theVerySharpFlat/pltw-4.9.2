@@ -8,4 +8,13 @@ public class Lion extends Feline {
     public void huntInPack() {
         System.out.println("The lion hunts in a pack!");
     }
+
+    public void roar() {
+        System.out.println("The lion roars");
+    }
+
+    @Override
+    public void say() {
+        roar();
+   }
 }

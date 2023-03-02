@@ -7,4 +7,9 @@ public class Giraffe extends Hooved {
     public void hum() {
         System.out.println("The giraffe hums.");
     }
+
+    @Override
+    public void say() {
+        hum();
+    }
 }
