@@ -18,4 +18,9 @@ public class Elephant extends Animal {
     public void say() {
         trumpet();
     }
+
+    @Override
+    public String toString() {
+        return "Elephant says hello";
+    }
 }

@@ -27,6 +27,9 @@ public class App {
         for (Animal animal : animals) {
             hearTheAnimal(animal);
         }
+
+        Animal a =  new Elephant("leaves", false, 60.0);
+        System.out.println(a.toString());
     }
 
     public static void hearTheAnimal(Animal a) {
